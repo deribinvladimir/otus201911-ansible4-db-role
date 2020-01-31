@@ -22,3 +22,4 @@ ansible4test.json
 google_compute_engine
 google_compute_engine.pub
 input.txt
+secrets.tar
