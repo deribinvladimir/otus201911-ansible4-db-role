@@ -9,7 +9,7 @@ platforms:
   - name: instance-travis
     zone: europe-west3-a
     machine_type: g1-small
-    image: ubuntu-1604-xenial-v20170919
+    image: ubuntu-1604-xenial-v20191024
 provisioner:
   name: ansible
   lint:
