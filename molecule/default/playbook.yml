@@ -4,5 +4,6 @@
   hosts: all
   vars:
     mongo_bind_ip: 0.0.0.0
+  # you should use name of repo as name of role if your role has exclusive repo
   roles:
     - role: otus201911-ansible4-db-role
