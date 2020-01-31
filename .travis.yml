@@ -2,7 +2,7 @@ language: python
 python:
 - '3.7'
 install:
-- pip install ansible==2.9.4 molecule apache-libcloud
+- pip install ansible==2.9.4 molecule apache-libcloud python-vagrant
 env:
   matrix:
   - GCE_CREDENTIALS_FILE="$(pwd)/ansible4test.json"
